@@ -13,7 +13,7 @@ import java.util.List;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @RestController
-@RequestMapping(value="/api/customer")
+@RequestMapping(value="/api/v1/customer")
 public class CustomerController {
     @Autowired
     private CustomerServicesPort customerServicesPort;
