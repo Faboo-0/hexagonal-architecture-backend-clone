@@ -1,0 +1,1 @@
+web: java -jar -Dserver.port=$PORT ms-launcher/target/ms-launcher-1.0-SNAPSHOT.jar
